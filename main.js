@@ -34,4 +34,5 @@ let lager = []
 
 function init(){
     let Buch1 = new Buch (1,"Unterm Rad", "Hermann Hesse", "17.01.2001", "Suhrkamp", 176)
+    let Buch2 = new Buch ()
 }
