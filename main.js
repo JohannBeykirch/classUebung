@@ -41,4 +41,5 @@ function init(){
     lager.push(Buch3)
     let Buch4 = new Buch (1, "Über die spezielle und allgemeine Relativitätstheorie", "Albert Einstein", "14.09.2012", "Springer", 124)
     lager.push(Buch4)
+
 }
