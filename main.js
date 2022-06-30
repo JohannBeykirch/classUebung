@@ -45,12 +45,14 @@ function init(){
 }
 init()
 
-console.log(lager.length)
-console.log(lager)
-function ausDemSortiment(buchtitel){
-        for(let i = lager.length; i === 0; i--) {
-            lager.pop()
-            console.log(lager)
+ausDemSortiment()
+function ausDemSortiment(lageranzahl){
+    lageranzahl = lager.length
+        for(let i = lager.length-1; i >= 0; i--) {
+            if(lager[i].ExemplareAnzahl == null){}
+            else {
+                console.log(lager)
+                lager.pop()
+            }
         }
 }
-console.log(lager)
